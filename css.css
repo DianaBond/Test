@@ -47,15 +47,17 @@ header{
     width: 262px;
     height: 13px;
 }
-h2{
+.title_first h2{
+    margin-left: auto;
+    margin-right: auto;
     text-transform: uppercase;
     font-size: 14px;
     margin-top: 65px;
     font-weight: normal;
     width: 246px;
     height: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+
 }
 h3{
     text-transform: uppercase;
@@ -190,6 +192,31 @@ section:before{
     display: inline-block;
 
 }
+.image-wrapper{
+    position: relative;
+
+}
+.image-wrapper p{
+    text-align: center;
+}
+.image-wrapper img {
+    position: relative;
+    top: 16px;
+
+}
+.image-caption {
+    position: absolute;
+    text-align: center;
+    top: 334px;
+    bottom: 38px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    width: 100%;
+    font-style: normal;
+
+}
+
 .products img {
     border: 1px solid #e2e2e0;
     width: 100%;
@@ -207,8 +234,224 @@ section:before{
 #catalog{
 
 }
+.icon_top img{
+    margin-top: 458px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.clothing_catalog {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: auto;
+    grid-gap: 30px;
 
+}
 
+.clothing_catalog img {
+    display: block;
+}
+.photo2{
+    margin-left: -182px;
+    margin-top: auto;
+}
+.photo6{
+    margin-left: -336px;
+}
+.photo1,
+.photo2{
+    margin-top: 43px;
+}
+.photo3,
+.photo4{
+    margin-top: 154px;
+}
+.photo5,
+.photo6{
+    margin-top: 155px;
+}
+.clothing_catalog p{
+    font-size: 34px;
+    color: white;
+    font-style: normal;
+
+}
+.photo1 p{
+    margin-top: -230px;
+    margin-left: 210px;
+}
+.photo2 p{
+    margin-top: -230px;
+    margin-left: 230px;
+
+}
+.photo3 p{
+    margin-top: -230px;
+    margin-left: 268px;
+
+}
+.photo4 p{
+    margin-top: -230px;
+    margin-left: 140px;
+}
+.photo5 p{
+    margin-top: -245px;
+    margin-left: 155px;
+}
+.photo6 p{
+    margin-top: -245px;
+    margin-left: 280px;
+}
+.title_second h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 1530px;
+    font-weight: normal;
+    width: 246px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+}
+.instagram_gallery figure{
+
+    width: 226px;
+    height: 226px;
+    padding: 0;
+    margin: 0 17px 0 0;
+    display: inline-block;
+
+}
+.liked_photo {
+    position: relative;
+    width: 100%;
+}
+.liked_photo figcaption{
+    position: absolute;
+    top: 156px;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.icon_like{
+    position: relative;
+    margin-left: 96px;
+    bottom: 123px;
+}
+.galleria3{
+    position: relative;
+    top: 34px;
+    background-color: black;
+    height:100%;
+    width:100%;
+    left:0;
+}
+
+.title_third h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 330px;
+    font-weight: normal;
+    width: 246px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.who_uses figure{
+    display: inline-block;
+    width: 226px;
+    height: 226px;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 75px;
+}
+.famous_person{
+    position: relative;
+    width: 100%;
+}
+.famous_person figcaption{
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.title_fourth{
+    margin-top: 370px ;
+    color: white;
+    font-size: 19px;
+    font-weight: normal;
+}
+.title_fourth span{
+    padding: 12px 40px;
+    background: black;
+}
+.contact_form{
+    display: flex;
+    margin-top: -47px;
+    margin-left: 125px;
+    margin-right: auto;
+    justify-content: center ;
+}
+.textb{
+    width: 300px;
+    height: 13px;
+    padding: 12px;
+    text-align: center;
+    color: black;
+    margin-right: 10px;
+}
+button{
+    margin-left: 10px;
+    width: 208px;
+    background-color: #d0d0d0;
+    border: none;
+    box-shadow: 0 3px 0 #4f5052;
+}
+footer{
+    display: block;
+    margin-top: 70px;
+    background: black;
+    height: 35px;
+    width: 100%;
+    font-size: 12px;
+}
+.footer-row{
+    margin: 0 auto;
+    width: 1200px;
+}
+.footer-menu{
+    padding-top: 1px;
+    list-style: none;
+    float: left;
+}
+.footer-menu li{
+    float: left;
+    height: 10px;
+}
+.footer-menu li a{
+    display: block;
+    font-size: 12px;
+    margin-left: -53px;
+    color: white;
+    padding-left: 0;
+    padding-right: 90px;
+    text-decoration: none;
+}
+
+.social_footer{
+    margin-top: 50px;
+    margin-left: 1110px;
+}
+.social_footer img{
+    margin-top: 7px;
+}
 
 
 
